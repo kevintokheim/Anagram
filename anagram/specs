@@ -3,3 +3,14 @@
 3. It looks for the same letters in two arrays - b r e a d - b e a r d
 4. It returns a true statement if the letters match, and a false statement if they do not match.
                                                                         - table, bread - false
+1. User inputs a and a and the output is an empty string.
+    inputs: a, b
+    output: "a"
+
+2. User inputs a and b and the output is an empty string.
+        inputs: a, b
+        output: " "
+
+3. User inputs on and no and the output is no.
+        input: on, no
+        output: no
