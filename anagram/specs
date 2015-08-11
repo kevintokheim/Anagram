@@ -1,0 +1,5 @@
+1. It recognizes one letter - b - b *the same function works for the first two steps
+2. It recognizes the same word - bread - bread
+3. It recognizes multiple letters in one word - bread - "b" "r" "e" "a" "d"
+4. It recognizes two words with the same amount of letters - bread - beard
+5. It recognizes two words with the same letters - bread - beard
