@@ -1,5 +1,5 @@
 1. It breaks apart a word into individual letters - bread - "b" "r" "e" "a" "d"
-2. It looks for the same amount of letters in two arrays
-                                                  - b r e a d - t a b l e
+2. It sorts the letters in the words - bread - beard
 3. It looks for the same letters in two arrays - b r e a d - b e a r d
-4. It puts together the letters that match the criteria - bread - beard
+4. It returns a true statement if the letters match, and a false statement if they do not match.
+                                                                        - table, bread - false

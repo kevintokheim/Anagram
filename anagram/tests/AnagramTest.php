@@ -17,5 +17,18 @@
             //Assert
             $this->assertEquals(["b", "r", "e", "a", "d"], $result);
         }
+
+        function test_makeAnagram_twoStrings()
+        {
+            //Arrange
+            $test_Anagram = new Anagram;
+            $input = ['bread', 'table'];
+
+            //Act
+            $result = $test_Anagram->makeAnagram($);
+
+            //Assert
+            $this->assertEquals(true, $result);
+        }
     }
 ?>
