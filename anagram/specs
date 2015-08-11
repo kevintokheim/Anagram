@@ -1,5 +1,5 @@
-1. It recognizes one letter - b - b *the same function works for the first two steps
-2. It recognizes the same word - bread - bread
-3. It recognizes multiple letters in one word - bread - "b" "r" "e" "a" "d"
-4. It recognizes two words with the same amount of letters - bread - beard
-5. It recognizes two words with the same letters - bread - beard
+1. It breaks apart a word into individual letters - bread - "b" "r" "e" "a" "d"
+2. It looks for the same amount of letters in two arrays
+                                                  - b r e a d - t a b l e
+3. It looks for the same letters in two arrays - b r e a d - b e a r d
+4. It puts together the letters that match the criteria - bread - beard

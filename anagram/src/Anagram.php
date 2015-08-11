@@ -9,6 +9,7 @@
             foreach ($input_string as $string) {
                 array_push($output_array, $string);
             }
+            return $input_string;
         }
     }
 
