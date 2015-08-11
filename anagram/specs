@@ -14,3 +14,9 @@
 3. User inputs on and no and the output is no.
         input: on, no
         output: no
+
+4. User inputs on and no and an and the output is no.
+        input: on,no, an
+        output: no
+
+        

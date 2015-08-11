@@ -47,5 +47,21 @@
             $this->assertEquals("no", $result);
         }
 
+        function test_makeAnagram_multipleWords()
+        {
+            //Arrange
+            $test_Anagram = new Anagram;
+            $input1 = "on";
+            $input2 = "no";
+            $input3 = "an";
+
+            //Act
+            $result = $test_Anagram->makeAnagram($input1, $input2, $input3);
+
+            //Assert
+            $this->assertEquals("no", $result);
+        }
+
+
     }
 ?>
