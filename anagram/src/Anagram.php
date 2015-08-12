@@ -1,23 +1,29 @@
 <?php
     class Anagram
     {
-        function makeAnagram($input_word1, $input_word2, $input_word3)
+
+        function makeAnagram($input_word1, $input_word2)
         {
+
+            $input_array_of_words = explode(" ", $input_word2);
+
             $input_array1 = str_split($input_word1);
-            $input_array2 = str_split($input_word2);
 
             sort($input_array1);
-            sort($input_array2);
-            sort($input_array3);
 
-            if ($input_array1 === $input_array2) {
-                return $input_word2;
-            } elseif ($input_array1 === $input_array3) {
-                return $input_word3;
-            } else {
-                
+
+            foreach ($input_array_of_words as $word) {
+                $word_array = str_split($word);
+                sort($word_array);
+                var_dump($word_array);
+                var_dump($input_array1);
+            if ($input_array1 === $word_array) {
+                return $word;
+            }
+
             }
         }
-    }
+            
+        }
 
 ?>

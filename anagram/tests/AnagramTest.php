@@ -52,11 +52,11 @@
             //Arrange
             $test_Anagram = new Anagram;
             $input1 = "on";
-            $input2 = "no";
-            $input3 = "an";
+            $input2 = "no an the";
+
 
             //Act
-            $result = $test_Anagram->makeAnagram($input1, $input2, $input3);
+            $result = $test_Anagram->makeAnagram($input1, $input2);
 
             //Assert
             $this->assertEquals("no", $result);
